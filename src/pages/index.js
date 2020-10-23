@@ -1,5 +1,13 @@
 import React from "react"
+import Layout from "../Components/layout";
+import Hero from "../Components/Hero/hero"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Index =() => {
+  return(
+    <Layout>
+      <Hero/>
+    </Layout>
+  )
 }
+
+export default Index;
