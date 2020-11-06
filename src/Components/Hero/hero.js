@@ -1,7 +1,8 @@
 import React from 'react';
 import Styles from '../Hero/hero.module.scss'
 import me from '../../assest/me.png'
-import Ellipse from '../../assest/Ellipse.svg'
+import Arrow2 from '../../assest/Arrow2.svg'
+import Arrow3 from '../../assest/Arrow3.svg'
 import Particles from 'react-tsparticles'
 
 const Hero = () => {
@@ -12,9 +13,14 @@ const Hero = () => {
                 <h1>Frontend Developer <br/> Wordpress Developer</h1>
             </div>
             <div className={Styles.Hero_my__imageWrapper}>
-                {/* <img src={me} alt="me" className={Styles.Hero_my__image} />  */}
-                {<img src={Ellipse} className={Styles.Hero_my__image} />}
-
+                <div className={Styles.Hero_my__image}>
+                    {<img src={Arrow2} className={Styles.Hero_my__arrow2} />}
+                    {<img src={Arrow3} className={Styles.Hero_my__arrow3} />}
+                    {<img src={me} className={Styles.Hero_miniPhoto} />}
+                    {<img src={me} className={Styles.Hero_miniPhoto2} />}
+                    {<img src={me} className={Styles.Hero_miniPhoto3} />}
+                </div>
+                {/* {<img src={Ellipse} className />} */}
             </div>
         </div>
 
@@ -58,10 +64,10 @@ const Hero = () => {
             },
             particles: {
                 color: {
-                value: "#ffffff",
+                value: "#ac4f73",
                 },
                 links: {
-                color: "#ffff",
+                color: " #8f4d8f",
                 distance: 150,
                 enable: true,
                 opacity: 0.5,
