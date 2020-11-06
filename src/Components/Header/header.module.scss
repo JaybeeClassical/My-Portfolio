@@ -1,13 +1,14 @@
 .wrapper__header{
-    background-color: rgba(2, 8, 20, 0.8);
-    // position: relative;
+    background-color: transparent;
     height: 60px;
     color: aliceblue;
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
     padding: 0 1rem;
-
+    z-index: 1;
+    position: relative;
+    width: 100%;
 }
 
 .Header_my__logo{
@@ -17,63 +18,64 @@
 }
 
 /* The Menuitem Goes in Here for the Header*/
-.Menuitem__Nav{
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
+// .Menuitem__Nav{
+//     height: 100%;
+//     max-width: 100%;
+//     display: flex;
+//     justify-content: flex-end;
+// }
 
-.MenuList__List{
-    width: calc(60px * 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
+// .MenuList__List{
+//     width: calc(60px * 0.8);
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     z-index: 1;
+ 
 
-    .List__icon{
-        width: calc(60px * 0.5);
-        height: calc(60px * 0.5);
-        background-color: dimgray;
-        border-radius: 50%;
-        padding: 5px;
-        margin: 2px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: filter 300ms;
-    }
+//     .List__icon{
+//         width: calc(60px * 0.5);
+//         height: calc(60px * 0.5);
+//         background-color: dimgray;
+//         border-radius: 50%;
+//         padding: 5px;
+//         margin: 2px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         transition: filter 300ms;
+//     }
 
-    .List__icon:hover{
-        filter: brightness(1.2); 
-    }
-}
+//     .List__icon:hover{
+//         filter: brightness(1.2); 
+//     }
+// }
 
-.Menu_dropdown{
-    position: absolute;
-    top: 58px;
-    width: 300px;
-    transform: translateX(-45%);
-    background-color: gray;
-    border: 1px solid #474a4d;
-    border-radius: 8px;
-    padding: 1rem;
-    overflow: hidden;
-}
+// .Menu_dropdown{
+//     position: absolute;
+//     top: 58px;
+//     width: 300px;
+//     transform: translateX(-45%);
+//     background-color: gray;
+//     border: 1px solid #474a4d;
+//     border-radius: 8px;
+//     padding: 1rem;
+//     overflow: hidden;
+// }
 
-.Menu_dropdownItem{
-    height: 50px;
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    transition: background 500ms;
-    padding: 0.5rem;
-}
+// .Menu_dropdownItem{
+//     height: 50px;
+//     display: flex;
+//     align-items: center;
+//     border-radius: 8px;
+//     transition: background 500ms;
+//     padding: 0.5rem;
+// }
 
-.Menu_dropdownItem:hover{
-    background-color: #525357;
-}
+// .Menu_dropdownItem:hover{
+//     background-color: #525357;
+// }
 
-.DropdownItem_iconButton__Right{
-    margin-left: auto;
-}
+// .DropdownItem_iconButton__Right{
+//     margin-left: auto;
+// }

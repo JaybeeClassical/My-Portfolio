@@ -1,21 +1,106 @@
 import React from 'react';
 import Styles from '../Hero/hero.module.scss'
 import me from '../../assest/me.png'
+import Ellipse from '../../assest/Ellipse.svg'
+import Particles from 'react-tsparticles'
 
 const Hero = () => {
   return (
-      <div>
-        <div className={Styles.Hero__background_image}>
-            <div className={Styles.Hero__Wrapper}>
-                <div className={Styles.Hero_Stack__title}>
-                    <h1>Frontend Developer <p style={{color:"blue"}}>&</p> Wordpress Developer</h1>
-                </div>
-                <div className={Styles.Hero_my__imageWrapper}>
-                    <img src={me} alt="my-photo" className={Styles.Hero_my__image} /> 
-                </div>
+    <div>
+        <div className={Styles.Hero__Wrapper}>
+            <div className={Styles.Hero_Stack__title}>
+                <h1>Frontend Developer <br/> Wordpress Developer</h1>
+            </div>
+            <div className={Styles.Hero_my__imageWrapper}>
+                {/* <img src={me} alt="me" className={Styles.Hero_my__image} />  */}
+                {<img src={Ellipse} className={Styles.Hero_my__image} />}
+
             </div>
         </div>
-      </div>
+
+        <Particles className={Styles.Hero__background_image}
+            id="tsparticles"
+            options={{
+            background: {
+                color: {
+                value: "#000000",
+                },
+            },
+            fpsLimit: 60,
+            interactivity: {
+                detectsOn: "canvas",
+                events: {
+                onClick: {
+                    enable: true,
+                    mode: "push",
+                },
+                onHover: {
+                    enable: true,
+                    mode: "repulse",
+                },
+                resize: true,
+                },
+                modes: {
+                bubble: {
+                    distance: 400,
+                    duration: 2,
+                    opacity: 0.8,
+                    size: 40,
+                },
+                push: {
+                    quantity: 4,
+                },
+                repulse: {
+                    distance: 200,
+                    duration: 0.4,
+                },
+                },
+            },
+            particles: {
+                color: {
+                value: "#ffffff",
+                },
+                links: {
+                color: "#ffff",
+                distance: 150,
+                enable: true,
+                opacity: 0.5,
+                width: 1,
+                },
+                collisions: {
+                enable: true,
+                },
+                move: {
+                direction: "none",
+                enable: true,
+                outMode: "bounce",
+                random: false,
+                speed: 1,
+                straight: false,
+                },
+                number: {
+                density: {
+                    enable: true,
+                    value_area: 1000,
+                },
+                value: 80,
+                },
+                opacity: {
+                value: 0.5,
+                },
+                shape: {
+                type: "circle",
+                },
+                size: {
+                random: true,
+                value: 9,
+                },
+            },
+            detectRetina: true,
+            }}
+      />
+       
+    </div>
   )
 }
 

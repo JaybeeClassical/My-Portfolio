@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://res.cloudinary.com/techibytes/image/upload/v1602694821/chibuike_o5cpdm.png" width="60" />
+    <img alt="Gatsby" src="https://res.cloudinary.com/techibytes/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1602694821/chibuike_o5cpdm.png" width="60" />
   </a>
 </p>
 <h1 align="center">
