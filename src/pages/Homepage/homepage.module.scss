@@ -1,0 +1,117 @@
+.Homepage__Wrapper{
+    height: 50vh;
+    padding: 40px;
+
+    .intro_section__svg{
+        position: absolute;
+    }
+
+    .intro_section__EllipseSvg{
+        position: absolute;
+        right: 322px;
+        bottom: -255px;
+    }
+}
+
+.intro_content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+
+    .intro_about{
+        margin: 0 auto 70px;
+        color: #000000;
+        border: 5px black solid;
+        width: 250px;
+        border-radius: 5%;
+        font-size: 35px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .intro_WhatIDo{
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        width: 150px;
+        margin: 60px auto 10px;
+        font-weight: 600;
+        color: rgb(22, 22, 22);
+    }
+}
+
+.homepage_intro__wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px auto;
+
+    .intro_left{
+        flex-basis: 40.5%;
+        margin: 0 auto;
+
+        h2{
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+    }
+
+    .intro_right{
+        flex-basis: 40.5%;
+        margin: 0 auto;
+
+        h2{
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-weight: 700;
+        }
+
+        .intro_right__svg{
+            left: 282px;
+            position: absolute;
+        }
+    }
+
+}
+
+.intro_center{
+    margin: 0 auto;
+    text-align: center;
+
+    h2{
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    p{
+        margin-bottom: 60px;
+    }
+}
+
+.homepage_skills{
+    clip-path: polygon(0 0, 100% 130px, 100% 75vh, 0 100%);
+    background-color: rgba(117, 65, 85, 0.158);
+    height: 100vh;
+    position: relative;
+    padding: 90px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2{
+        color: #464646;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .skills__svg{
+        position: absolute;
+        right: 70px;
+    }
+
+    .skills__icons{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
