@@ -3,9 +3,9 @@ import Styles from '../Homepage/homepage.module.scss'
 import Vector122 from '../../assest/Vector122.svg'
 import Ellipse81 from '../../assest/Ellipse81.svg'
 import Separator from '../../assest/separator.svg'
-// import { DiGit, DiBootstrap, DiCss3,DiJavascript1,DiNpm,DiReact,DiSass,DiWordpress } from "react-icons/di";
-// import { GrGatsbyjs, GrGithub, GrWindows } from "react-icons/gr";
-// import { SiVisualstudio } from "react-icons/si";
+import { DiGit, DiBootstrap, DiCss3, DiJavascript1, DiNpm, DiReact, DiSass, DiWordpress } from "react-icons/di";
+import { GrGatsbyjs, GrGithub, GrWindows } from "react-icons/gr";
+import { SiVisualstudio } from "react-icons/si";
 
 const Homepage = () => {
     return (
@@ -52,15 +52,19 @@ const Homepage = () => {
                 <img src={Ellipse81} className={Styles.skills__svg} alt="design"/>
                     <h2>Skills/Tools/Framework</h2>
                     <div className={Styles.skills__icons}>
-                        {/* <i>{DiGit}</i>
-                        <i>{DiBootstrap}</i>
-                        <i>{DiCss3}</i>
-                        <i>{DiGit}</i>
-                        <i>{DiJavascript1}</i>
-                        <i>{DiNpm}</i>
-                        <i>{DiReact}</i>
-                        <i>{DiSass}</i>
-                        <i>{DiWordpress}</i>                         */}
+                        <i><DiGit/></i>
+                        <i><DiBootstrap/></i>
+                        <i><DiCss3/></i>
+                        <i><DiGit/></i>
+                        <i><DiJavascript1/></i>
+                        <i><DiNpm/></i>
+                        <i><DiReact/></i>
+                        <i><DiSass/></i>
+                        <i><DiWordpress/></i>      
+                        <i><GrGatsbyjs/></i>      
+                        <i><GrGithub/></i>      
+                        <i><GrWindows/></i>      
+                        <i><SiVisualstudio/></i>      
                     </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import me from '../../assest/me.png'
 import Arrow2 from '../../assest/Arrow2.svg'
 import Arrow3 from '../../assest/Arrow3.svg'
 import Particles from 'react-tsparticles'
+import { FiFacebook, FiTwitter, FiDownload, FiGithub, FiMail } from "react-icons/fi";
 
 const Hero = () => {
   return (
@@ -12,6 +13,13 @@ const Hero = () => {
             <div className={Styles.Hero_Stack__title}>
                 <h1>Frontend Developer <br/> Wordpress Developer</h1>
             </div>
+                <div className={Styles.Fixed_socialIcons}>
+                    <i><a href="#"><FiFacebook/></a></i>
+                    <i><a href="#"><FiTwitter/></a></i>
+                    <i><a href="#"><FiDownload/></a></i>
+                    <i><a href="#"><FiGithub/></a></i>
+                    <i><a href="#"><FiMail/></a></i>
+                </div>
             <div className={Styles.Hero_my__imageWrapper}>
                 <div className={Styles.Hero_my__image}>
                     {<img src={Arrow2} className={Styles.Hero_my__arrow2} />}
@@ -20,7 +28,6 @@ const Hero = () => {
                     {<img src={me} className={Styles.Hero_miniPhoto2} />}
                     {<img src={me} className={Styles.Hero_miniPhoto3} />}
                 </div>
-                {/* {<img src={Ellipse} className />} */}
             </div>
         </div>
 

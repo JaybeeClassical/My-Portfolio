@@ -1,5 +1,5 @@
 .Homepage__Wrapper{
-    height: 50vh;
+    // height: 50vh;
     padding: 40px;
 
     .intro_section__svg{
@@ -112,6 +112,12 @@
     .skills__icons{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin-top: 40px;
+
+        i{
+            font-size: 60px;
+            color: rgb(137, 99, 165);
+        }
     }
 }
 

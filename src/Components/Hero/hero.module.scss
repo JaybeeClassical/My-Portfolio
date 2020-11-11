@@ -88,3 +88,12 @@
     -webkit-background-clip: text; 
    }
 }
+
+.Fixed_socialIcons{
+    position: fixed;
+    padding: 0px 10px 0px 10px;
+
+    i{
+        display: block;
+    }
+}
