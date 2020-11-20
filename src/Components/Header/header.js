@@ -1,13 +1,14 @@
 import React from 'react'
-import burgerMenu from '../../assest/Burger menu/menu.svg'
 import Styles from '../Header/header.module.scss'
+import Burger from '../Burger/burger'
 
-const Burger = () => {
+const Header = () => {
     return (
-        <div className={Styles.Burger}>
-            <burgerMenu/>
+        <div className={Styles.Header__wrapper}>
+            <div>sjos</div>
+            <Burger />
         </div>
     )
 }
 
-export default Burger
+export default Header

@@ -1,20 +1,23 @@
-.Hero__background_image {
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    // top: 10;
-}
-
 .Hero__Wrapper{
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
     padding-top: 130px;
-    position: absolute;
+    // position: absolute;
     z-index: 1;
 }
+
+.Hero__background_image {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    top: 0;
+    position: absolute;
+    z-index: -22;
+}
+
 
 .Hero_my__imageWrapper{
     flex-basis: 40%;
@@ -55,17 +58,17 @@
         .Hero_miniPhoto2{
             width: 60px;
             border-radius: 50%;
-            position: absolute;
-            right: 232px;
-            bottom: 142px;
+            position: relative;
+            right: 31px;
+            bottom: 266px;
         }
 
         .Hero_miniPhoto3{
+            left: 195px;
             width: 60px;
             border-radius: 50%;
-            position: absolute;
-            right: 509px;
-            bottom: 208px;
+            position: relative;
+            bottom: 199px;
         }
 
     }
@@ -86,6 +89,7 @@
     background: linear-gradient(to right, #ac4f73,#25495e, #8f4d8f, #646353); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
+    transition: 0.3s ease-in;
    }
 }
 
@@ -95,5 +99,6 @@
 
     i{
         display: block;
+        margin-top: 20px;
     }
 }

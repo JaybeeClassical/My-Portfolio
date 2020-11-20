@@ -14,11 +14,11 @@ const Hero = () => {
                 <h1>Frontend Developer <br/> Wordpress Developer</h1>
             </div>
                 <div className={Styles.Fixed_socialIcons}>
-                    <i><a href="#"><FiFacebook/></a></i>
-                    <i><a href="#"><FiTwitter/></a></i>
-                    <i><a href="#"><FiDownload/></a></i>
-                    <i><a href="#"><FiGithub/></a></i>
-                    <i><a href="#"><FiMail/></a></i>
+                    <i><a href="#"><FiFacebook style={{color: "#8f4d8f"}}/></a></i>
+                    <i><a href="#"><FiTwitter style={{color: "#8f4d8f"}}/></a></i>
+                    <i><a href="#"><FiDownload style={{color: "#8f4d8f"}}/></a></i>
+                    <i><a href="#"><FiGithub style={{color: "#8f4d8f"}}/></a></i>
+                    <i><a href="#"><FiMail style={{color: "#8f4d8f"}} /></a></i>
                 </div>
             <div className={Styles.Hero_my__imageWrapper}>
                 <div className={Styles.Hero_my__image}>
@@ -36,7 +36,7 @@ const Hero = () => {
             options={{
             background: {
                 color: {
-                value: "#000000",
+                value: "#121313",
                 },
             },
             fpsLimit: 60,

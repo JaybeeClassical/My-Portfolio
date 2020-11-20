@@ -1,15 +1,17 @@
 .footer_wrapper{
-    background-color: #000000;
+    // background-color:  #121313;
     display: flex;
     justify-content: space-between;
-    color: ivory;
-    padding: 40px;
+    color:  #121313;
+    padding: 10px;
 }
 
-ul{
+.footer_socialIcon{
     display: flex;
-    
-    li{
-        padding-right: 10px;
+    width: 100px;
+    justify-content: space-between;
+
+    i{
+        margin: 0 auto;
     }
 }
