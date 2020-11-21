@@ -48,6 +48,10 @@
     width: 100%;
     margin: 50px auto;
 
+    // @media (min-width: 600px) {
+    //     display: block;
+    // }
+
     .intro_left{
         flex-basis: 40.5%;
         margin: 0 auto;
@@ -57,6 +61,7 @@
             font-size: 30px;
             font-weight: 700;
         }
+
     }
 
     .intro_right{

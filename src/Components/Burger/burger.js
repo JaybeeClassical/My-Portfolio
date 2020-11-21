@@ -11,7 +11,7 @@ const Hemburger = styled.div`
     margin: 10px 30px;
     
     div{
-        border-top: 2px #4831D4 solid;
+        border-top: 2px #fffffe solid;
         padding-bottom: ${({open}) => open ? '5px': '20px'};
         cursor: pointer;
         transform-origin: 1px;

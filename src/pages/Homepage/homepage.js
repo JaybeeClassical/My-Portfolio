@@ -35,10 +35,10 @@ const Homepage = () => {
                         <h2>Wordpress Design</h2>
                         <p>Building, Customizing websites using the world most popular Content
                             Management System (CMS). Integrating Wordpress with Front-end Tools like:
-                            <ul>
+                            <ol style={{marginLeft: "20px"}}>
                                 <li>Frontity</li>
                                 <li>Gatsby</li>
-                            </ul>
+                            </ol>
                         </p>
                         <img src={Vector122} className={Styles.intro_right__svg} alt="design"/>
                     </div>

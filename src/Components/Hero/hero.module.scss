@@ -6,6 +6,12 @@
     padding-top: 130px;
     // position: absolute;
     z-index: 1;
+    overflow: hidden;
+    
+    // @media (max-width: 480px){
+    //     display: block;
+    // }
+
 }
 
 .Hero__background_image {
@@ -16,6 +22,11 @@
     top: 0;
     position: absolute;
     z-index: -22;
+    overflow: hidden;
+
+    // @media (min-width: 800px) {
+    //     height: auto;
+    // }
 }
 
 
@@ -27,6 +38,7 @@
         background-image: url(../../assest/Ellipse.svg);
         background-size: contain;
         background-repeat: no-repeat;
+
 
         .Hero_my__arrow2{
             height: 180px;

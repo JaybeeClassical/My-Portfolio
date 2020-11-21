@@ -13,13 +13,13 @@ const Hero = () => {
             <div className={Styles.Hero_Stack__title}>
                 <h1>Frontend Developer <br/> Wordpress Developer</h1>
             </div>
-                <div className={Styles.Fixed_socialIcons}>
-                    <i><a href="#"><FiFacebook style={{color: "#8f4d8f"}}/></a></i>
-                    <i><a href="#"><FiTwitter style={{color: "#8f4d8f"}}/></a></i>
-                    <i><a href="#"><FiDownload style={{color: "#8f4d8f"}}/></a></i>
-                    <i><a href="#"><FiGithub style={{color: "#8f4d8f"}}/></a></i>
-                    <i><a href="#"><FiMail style={{color: "#8f4d8f"}} /></a></i>
-                </div>
+            <div className={Styles.Fixed_socialIcons}>
+                <i><a href="#"><FiFacebook style={{color: "#8f4d8f"}}/></a></i>
+                <i><a href="#"><FiTwitter style={{color: "#8f4d8f"}}/></a></i>
+                <i><a href="#"><FiDownload style={{color: "#8f4d8f"}}/></a></i>
+                <i><a href="#"><FiGithub style={{color: "#8f4d8f"}}/></a></i>
+                <i><a href="#"><FiMail style={{color: "#8f4d8f"}} /></a></i>
+            </div>
             <div className={Styles.Hero_my__imageWrapper}>
                 <div className={Styles.Hero_my__image}>
                     {<img src={Arrow2} className={Styles.Hero_my__arrow2} />}
