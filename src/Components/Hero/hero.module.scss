@@ -88,17 +88,18 @@
 
 
 .Hero_Stack__title{
-   flex-basis: 40%;
+   flex-basis: 45%;
 
    h1{
     text-align: center;
     padding-top: 55px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 37px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 50px;
+    line-height: 57px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background: linear-gradient(to right, #ac4f73,#25495e, #8f4d8f, #646353); 
+    background: linear-gradient(to right, #FFFFFF,#25495e, #FFFFFF, #646353); 
     -webkit-text-fill-color: transparent; 
     -webkit-background-clip: text; 
     transition: 0.3s ease-in;

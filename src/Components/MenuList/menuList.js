@@ -7,7 +7,7 @@ const Ul = styled.ul`
     flex-flow: column nowrap;
     list-style: none;
 
-    background-color: #000000;
+    background-color: #FFFFFF;
     position: fixed;
     right: ${({open}) => open ? '30px' : '0'};
     top: 60px;
@@ -20,11 +20,13 @@ const Ul = styled.ul`
     border-radius: 25px;
     border: solid 2px white;
     position: absolute;
+    color: #021D44;
 
     li{
-        font-size: 25px;
+        font-size: 28px;
         padding: 18px 10px; 
         transition: transform 0.2s ease-in-out;
+        font-weight: bold;
     }
 
     @media (max-width: 768px){

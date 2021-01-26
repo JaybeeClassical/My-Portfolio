@@ -11,7 +11,7 @@ const Hemburger = styled.div`
     margin: 10px 30px;
     
     div{
-        border-top: 2px #fffffe solid;
+        border-top: ${({open}) => open ? '2px #4831D4 solid': '2px #FFFFFF solid'};
         padding-bottom: ${({open}) => open ? '5px': '20px'};
         cursor: pointer;
         transform-origin: 1px;
@@ -20,7 +20,7 @@ const Hemburger = styled.div`
 
 
         :nth-child(2){
-            border-top: 2px #4831D4 solid;
+            border-top: ${({open}) => open ? '2px #4831D4 solid': '2px #FFFFFF solid'};
             width: ${({open}) => open ? '40px': '30px'};
             position: relative;
             top: ${({open}) => open ? '20px': '-3px'};

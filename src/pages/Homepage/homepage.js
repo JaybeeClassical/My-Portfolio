@@ -13,7 +13,7 @@ const Homepage = () => {
         <div className={Styles.Homepage__Container}>
             <Hero />
             <div className={Styles.Homepage__Wrapper}>
-                <img src={Vector122} className={Styles.intro_section__svg} alt="design"/>
+                <img src={Vector122} className={Styles.intro_section__svg}  alt="design"/>
                 <img src={Ellipse81} className={Styles.intro_section__EllipseSvg} alt="design"/>
                 <div className={Styles.intro_content}>
                     <h2 id="about" className={Styles.intro_about}>About me</h2>

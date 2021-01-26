@@ -14,11 +14,11 @@ const Hero = () => {
                 <h1>Frontend Developer <br/> Wordpress Developer</h1>
             </div>
             <div className={Styles.Fixed_socialIcons}>
-                <i><a href="https://web.facebook.com/Chinweike.Jaybee" target="_blank" rel="noopener">FiFacebook style={{color: "#8f4d8f"}}/></a></i>
-                <i><a href="https://twitter.com/Chinweike_Dev" target="_blank" rel="noopener"><FiTwitter style={{color: "#8f4d8f"}}/></a></i>
-                <i><a href="https://drive.google.com/file/d/1D1HkKlquVMSUb1fX04uKirudjWeJ3pYj/view?usp=sharing" target="_blank" rel="noopener"><FiDownload style={{color: "#8f4d8f"}}/></a></i>
-                <i><a href="https://github.com/JaybeeClassical" target="_blank" rel="noopener"><FiGithub style={{color: "#8f4d8f"}}/></a></i>
-                <i><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener"><FiMail style={{color: "#8f4d8f"}} /></a></i>
+                <i><a href="https://web.facebook.com/Chinweike.Jaybee" target="_blank" rel="noopener"><FiFacebook style={{color: "#FFFFFF"}}/></a></i>
+                <i><a href="https://twitter.com/Chinweike_Dev" target="_blank" rel="noopener"><FiTwitter style={{color: "#FFFFFF"}}/></a></i>
+                <i><a href="https://drive.google.com/file/d/1D1HkKlquVMSUb1fX04uKirudjWeJ3pYj/view?usp=sharing" target="_blank" rel="noopener"><FiDownload style={{color: "#FFFFFF"}}/></a></i>
+                <i><a href="https://github.com/JaybeeClassical" target="_blank" rel="noopener"><FiGithub style={{color: "#FFFFFF"}}/></a></i>
+                <i><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener"><FiMail style={{color: "#FFFFFF"}} /></a></i>
             </div>
             <div className={Styles.Hero_my__imageWrapper}>
                 <div className={Styles.Hero_my__image}>
@@ -36,7 +36,7 @@ const Hero = () => {
             options={{
             background: {
                 color: {
-                value: "#121313",
+                value: "#021D44",
                 },
             },
             fpsLimit: 60,
@@ -71,7 +71,7 @@ const Hero = () => {
             },
             particles: {
                 color: {
-                value: "#ac4f73",
+                value: "#ffffff",
                 },
                 links: {
                 color: " #8f4d8f",

@@ -5,7 +5,7 @@ import Burger from '../Burger/burger'
 const Header = () => {
     return (
         <div className={Styles.Header__wrapper}>
-            <div>sjos</div>
+            <div></div>
             <Burger />
         </div>
     )
