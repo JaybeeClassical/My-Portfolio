@@ -1,5 +1,6 @@
 .Homepage__Container{
     position: relative;
+    overflow: hidden;
 }
 
 .Homepage__Wrapper{
@@ -21,6 +22,10 @@
     margin: 0 auto;
     text-align: center;
 
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
+
 
     .intro_about{
         margin: 0 auto 70px;
@@ -31,6 +36,12 @@
         font-size: 35px;
         font-weight: 800;
         text-transform: uppercase;
+
+        @media screen and (max-width: 800px) {
+           margin: 0 auto 20px;
+           width: 200px;
+           font-size: 20px;
+        }
     }
 
     .intro_WhatIDo{
@@ -50,19 +61,28 @@
     width: 100%;
     margin: 50px auto;
 
-    // @media (min-width: 600px) {
-    //     display: block;
-    // }
+    @media screen and (max-width: 800px) {
+        display: block;
+        margin: 20px auto;
+    }
 
     .intro_left{
         flex-basis: 40.5%;
         margin: 0 auto;
+
+        @media screen and (max-width: 800px) {
+         margin-bottom: 20px;
+        }
 
         h2{
             margin-bottom: 10px;
             font-size: 30px;
             font-weight: 700;
             color: #021D44;
+
+            @media screen and (max-width: 800px) {
+               font-size: 20px;
+            }
         }
 
     }
@@ -76,6 +96,10 @@
             font-size: 30px;
             font-weight: 700;
             color: #021D44;
+
+            @media screen and (max-width: 800px) {
+                font-size: 20px;
+             }
         }
 
         .intro_right__svg{
@@ -90,17 +114,30 @@
     margin: 0 auto;
     text-align: center;
 
+    @media screen and (max-width: 800px) {
+        text-align: left;
+     }
+
     h2{
         margin-bottom: 10px;
         font-size: 30px;
         font-weight: 700;
         color: #021D44;
+
+        @media screen and (max-width: 800px) {
+            font-size: 20px;
+         }
     }
 
     p{
         margin-bottom: 60px;
     }
 }
+
+// .intro_separator{
+//     margin: 0 auto;
+//     text-align: center;
+// }
 
 .homepage_skills{
     clip-path: polygon(0 0, 100% 130px, 100% 75vh, 0 100%);
@@ -111,10 +148,21 @@
     margin: 0 auto;
     text-align: center;
 
+    @media screen and (max-width: 800px) {
+        padding: 25px;
+        clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+        border-radius: 25px;
+        height: auto;
+    }
+
     h2{
         color: #021D44;
         font-weight: 700;
         text-transform: uppercase;
+
+        @media screen and (max-width: 800px) {
+           font-size: 15px;
+        }
     }
 
     .skills__svg{
@@ -130,6 +178,10 @@
         i{
             font-size: 60px;
             color: #021D44;
+
+            @media screen and (max-width: 800px) {
+                font-size: 30px;
+            }
         }
     }
 }
@@ -140,6 +192,10 @@
     text-align: center;
     padding: 90px;
 
+    @media screen and (max-width: 800px) {
+        padding: 20px;
+    }
+
     h1{
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         // background: linear-gradient(to right, #ac4f73,#25495e, #8f4d8f, #646353); 
@@ -148,10 +204,20 @@
         -webkit-background-clip: text; 
         font-weight: 800;
         font-size: 70px;
+
+        @media screen and (max-width: 800px) {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
     }
 
     p{
         color: blanchedalmond;
+
+        @media screen and (max-width: 800px) {
+           font-size: 10px;
+        }
     }
 }
 

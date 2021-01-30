@@ -4,14 +4,12 @@
     display: flex;
     height: 70px;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     padding: 60px;
 
-    // @media screen and (max-width: 600px) {
-    //     padding: 20px 5px;
-    // }
-
-    @media (max-width: 480px){
-        padding: 20px 5px;
+    @media screen and (max-width: 800px) {
+       padding: 30px 0px;
     }
+
+
 }

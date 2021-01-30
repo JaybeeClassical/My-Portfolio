@@ -48,10 +48,10 @@ const Homepage = () => {
                     <p>
                         Writing Down my experiences and difficulties using most Web Technologies
                     </p>
-                    <img src={Separator} alt="separator" className={Styles.intro_separator}/>
                 </div>
 
                 <div className={Styles.homepage_skills}>
+                    <img src={Separator} alt="separator" className={Styles.intro_separator}/>
                     <img src={Ellipse81} className={Styles.skills__svg} alt="design"/>
                         <h2>Skills/Tools/Framework</h2>
                         <div className={Styles.skills__icons}>
